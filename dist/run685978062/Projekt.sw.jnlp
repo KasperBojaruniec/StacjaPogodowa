@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Projekt.sw.jnlp">
+    <information>
+        <title>Projekt.sw</title>
+        <vendor>Mikolaj Musidlowski</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Projekt.sw.jar" size="14806" download="eager"/>
+        <jar href="lib\thorwin.math-1.5.0.jar" size="300180" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="projekt.sw.ProjektSw" name="ProjektSw"/>
+</jnlp>
+
